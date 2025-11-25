@@ -1,98 +1,88 @@
 h1 align="center">ZAIUM Explorer</h1>
 
-<p align="center"><strong>
-Decentralize power. Shape the future. Sustain the world — block by block.
-</strong></p>
+**Decentralize power. Shape the future. Sustain the world — block by block.**
 
 ---
 
-## Overview
-
+## 🧩 Overview  
 The **ZAIUM Explorer** is the official block explorer for the ZAIUM blockchain.  
-It allows users, developers, and auditors to inspect blocks, transactions, addresses and network activity in real time.
+It allows users, developers and auditors to inspect blocks, transactions, addresses and network activity in real time.
 
 The explorer provides:
 
-- Live block and transaction feed  
-- Detailed block views  
+- Live block and transaction updates  
+- Detailed block information  
 - Transaction inspection (inputs, outputs, fees)  
 - Address history and balance lookup  
 - Network statistics and charts  
 
 ---
 
-## Core Features (Planned)
+## 🔎 Core Features (Planned)
 
-### 📦 Block View
-- Latest blocks list  
-- Block height, hash, timestamp  
-- Miner/validator information  
+### 📦 Block View  
+- Latest block list  
+- Block height, hash and timestamp  
+- Miner information  
 - Number of transactions  
 - Block size and weight  
 
-### 🔍 Transaction View
+### 🔍 Transaction View  
 - TxID and confirmation status  
 - Inputs and outputs  
-- Fees and size  
-- Addresses involved  
+- Fees and transaction size  
+- Associated addresses  
 
-### 👛 Address View
+### 👛 Address View  
 - Current balance  
 - Total received and sent  
 - Full transaction history  
 
-### 📊 Network Stats
-- Block time  
+### 📊 Network Statistics  
+- Average block time  
 - Difficulty  
-- Hashrate (if available)  
-- Mempool size and tx count  
+- Hash rate (if available)  
+- Mempool size and transaction count  
 
 ---
 
-## Technical Stack (Tentative)
+## 🛠 Technical Stack (Tentative)  
+The exact implementation may evolve as development progresses.  
+Initial planned design:
 
-The exact stack may evolve, but an initial design:
-
-- Backend: Node.js / Python / Go  
-- Indexer: Connected to `zaium-core` full node  
-- Database: PostgreSQL / MongoDB  
-- Frontend: React / Vue / Svelte  
-- API: REST/JSON endpoints for public data  
-
----
-
-## Project Structure (early stage)
-
-zaium-explorer/ ├── backend/        # API, indexer, DB models ├── frontend/       # Web UI ├── config/         # Node & network configuration ├── docs/           # Documentation └── scripts/        # Deployment & maintenance
+- **Backend:** Node.js / Python / Go  
+- **Indexer:** Connected to `zaium-core` full node  
+- **Database:** PostgreSQL or MongoDB  
+- **Frontend:** React / Vue / Svelte  
+- **API:** Public REST/JSON endpoints  
 
 ---
 
-## Integration with ZAIUM Core
+## 📁 Project Structure (Early Stage)
 
-The explorer will connect to a running `zaium-core` node to:
+zaium-explorer/ ├── backend/        # API, indexer, database models ├── frontend/       # Web UI ├── config/         # Node & network configuration ├── docs/           # Documentation └── scripts/        # Deployment & maintenance
+
+---
+
+## 🔗 Integration with ZAIUM Core  
+The explorer connects to a running `zaium-core` full node to:
 
 - Fetch raw blocks and transactions  
-- Monitor mempool  
-- Track chain reorgs  
-- Expose processed data via APIs  
+- Monitor mempool activity  
+- Track chain reorganizations  
+- Process and expose indexed data through APIs  
 
 ---
 
-## License
-
-ZAIUM Explorer is intended to be released under the MIT License.
+## 📜 License  
+ZAIUM Explorer is intended to be released under the **MIT License**.
 
 ---
 
-## Official Links
-
+## 🌐 Official Links  
 - Website: https://zaium.org  
 - GitHub Organization: https://github.com/zaium-chain  
 - Twitter/X: https://twitter.com/zaiumchain  
 - Telegram: https://t.me/zaiumchain  
 
----
-
-<p align="center">
-  <strong>ZAIUM — Building the future block by block.</strong>
-</p>
+**ZAIUM — Building the future, block by block.**
